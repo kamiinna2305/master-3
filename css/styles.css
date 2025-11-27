@@ -138,8 +138,17 @@ h2 {
 
 .hero {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
+
+.hero_block {
+  flex-basis: 50%;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+height: 100%;
+}
+
 
 .hero_image {
   flex: 0 0 40%;
@@ -153,42 +162,29 @@ h2 {
   object-fit: cover;
 }
 
-.slogan {
-  padding: 20px;
-  text-align: center;
-  align-self: center;
-}
-
-
 .slogan_title {
+  text-align: center;
   font-weight: 500;
   font-size: 3rem;
   font-style: italic;
   box-shadow: 0 0 15px rgba(68, 76, 92, 0.6);
 }
 
-.hero_block {
-  display: flex;
-  row-gap: 20px;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.hero_description {
-  text-align: justify;
-  font-weight: 100;
-  font-size: 1.5rem;
-  padding: 20px;
-  box-shadow: 0 0 15px rgba(68, 76, 92, 0.6);
-}
-
 .description {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
   font-style: italic;
   box-shadow: 0 0 15px rgba(68, 76, 92, 0.6);
-  padding: 20px;
+  padding: 1rem;
 }
 
+.about_description {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 1rem;
+  box-shadow: 0 0 15px rgba(68, 76, 92, 0.6);
+}
 
 
 /* === Product Carousel 2 === */
@@ -292,7 +288,6 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
-  padding: 20px;
 }
 
 .gallery-grid a {
@@ -407,7 +402,6 @@ section{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  padding: 2rem;
 }
 
 .contact_block{
@@ -481,6 +475,18 @@ section{
 .book-now {
   font-weight: 400;
   font-size: 1.2rem;
+}
+
+.btn-more {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.btn-back {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .header_book{

@@ -56,8 +56,6 @@ body{
 
 .book-now {
   padding: 12px 24px;
-  border: 1px var(--text-color) solid;
-  border-radius: 25px;
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
   text-decoration: none;
   font-weight: 600;
@@ -130,7 +128,6 @@ h2 {
   border: none;
   padding: 30px 20px;
   cursor: pointer;
-  border-radius: 10px;
 }
 
 .prev { left: 10px; }
@@ -141,7 +138,7 @@ h2 {
 
 .hero {
   display: flex;
-  gap: 30px;
+  gap: 1rem;
 }
 
 .hero_image {
@@ -157,7 +154,7 @@ h2 {
 }
 
 .slogan {
-  padding: 40px;
+  padding: 20px;
   text-align: center;
   align-self: center;
 }
@@ -167,6 +164,7 @@ h2 {
   font-weight: 500;
   font-size: 3rem;
   font-style: italic;
+  box-shadow: 0 0 15px rgba(68, 76, 92, 0.6);
 }
 
 .hero_block {
@@ -177,42 +175,21 @@ h2 {
 }
 
 .hero_description {
-  border-radius: 50px;
   text-align: justify;
   font-weight: 100;
   font-size: 1.5rem;
-  font-style: italic;
   padding: 20px;
+  box-shadow: 0 0 15px rgba(68, 76, 92, 0.6);
 }
 
 .description {
   font-size: 1.5rem;
   font-style: italic;
-}
-
-/*About*/
-
-.about_block {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.about_image {
-  max-width: 250px;
   box-shadow: 0 0 15px rgba(68, 76, 92, 0.6);
-  transition: transform 0.2s ease;
+  padding: 20px;
 }
 
-.about_image img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
 
-.about_image:hover {
-  transform: scale(1.05);
-}
 
 /* === Product Carousel 2 === */
 
@@ -261,7 +238,6 @@ h2 {
   padding: 10px;
   cursor: pointer;
   padding: 20px 15px;
-  border-radius: 10px;
   z-index: 5;
 }
 
@@ -324,8 +300,8 @@ h2 {
   width: 100%;
   aspect-ratio: 1 / 1;
   overflow: hidden;
-  border-radius: 12px;
   position: relative;
+  box-shadow: 0 0 15px rgba(68, 76, 92, 0.6);
 }
 
 .gallery-grid img {
@@ -352,15 +328,12 @@ h2 {
   font-size: 1.6rem;
   color: var(--text-color);
   padding: 12px 24px;
-  border-radius: 25px;
   transition: all 0.5s ease;
 }
 
 .btn-more:hover {
   background: var(--hover-color);
-  border: 1px solid var(--text-color);
   padding: 12px 24px;
-  border-radius: 25px;
 }
 
 .gallery-back {
@@ -373,15 +346,12 @@ h2 {
   font-size: 1.6rem;
   color: var(--text-color);
   padding: 12px 24px;
-  border-radius: 25px;
   transition: all 0.5s ease;
 }
 
 .btn-back:hover {
   background: var(--hover-color);
-  border: 1px solid var(--text-color);
   padding: 12px 24px;
-  border-radius: 25px;
 }
 
 /* Footer */
@@ -431,11 +401,6 @@ section{
 
 .hero{
   flex-direction: column;
-  margin-bottom: 10px;
-}
-
-.menu_item{
-  flex-direction: column;
 }
 
 .gallery-grid {
@@ -473,11 +438,6 @@ section{
   margin-bottom: 0;
   padding: 0 0;
 }
-  
-.about_block{
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 20px;
-}
 
 .services_block{
   flex-direction: column;
@@ -496,8 +456,8 @@ section{
 
 @media (max-width: 640px) {
 
-.header_name{
-
+.slogan_title {
+  font-size: 1.8rem;
 }
 
 .address {
@@ -531,24 +491,8 @@ section{
   padding: 15px 10px;
 }
 
-.hero {
-  gap: 1rem;
-}
-
-.slogan {
-  text-align: center;
-  align-self: center;
-}
-
-
-.slogan_title {
-  font-weight: 500;
-  font-size: 2.5rem;
-  font-style: italic;
-}
-
-.hero_block {
-  row-gap: 10px;
+.pc2-btn {
+  padding: 10px 8px;
 }
 
 .hero_description {
@@ -558,7 +502,6 @@ section{
 
 .description {
   font-size: 1.5rem;
-  font-style: italic;
 }
 }
 

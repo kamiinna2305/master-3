@@ -1,0 +1,95 @@
+
+{
+  "businessName": "Salma Hayek",
+  "tagline": "Professional skin care",
+  "description": "Individual treatments for healthy, youthful and radiant skin.",
+  "descriptionAbout": "I'm a certified cosmetologist with an experienced approach and attention to detail. I help clients improve their skin, maintain youthfulness, and feel confident every day. I work with safe, professional cosmetics and tailor treatments to your skin type and goals. In-office, at-home, or on-site appointments are available, depending on your preferences.",
+  "phone": "📞 +34 603 158 604",
+  "whatsApp": "🟢",
+  "email": "📧 inna@example.com",
+  "instagram": "📷 @inna_amigurumik",
+  "location": "Lloret de Mar, Spain",
+  "bodyColor": "#F2D7D9",
+  "hoverColor": "#dd999e",
+  "textColor": "#323030",
+  "services": [
+  {
+    "name": "Deep facial cleansing",
+    "price": "45€"
+  },
+  {
+    "name": "Hydrating facial treatment",
+    "price": "40€"
+  },
+  {
+    "name": "Anti-aging therapy",
+    "price": "55€"
+  },
+  {
+    "name": "Facial massage",
+    "price": "35€"
+  },
+  {
+    "name": "Fruit acid peeling",
+    "price": "50€"
+  },
+  {
+    "name": "Décolleté care",
+    "price": "30€"
+  },
+  {
+    "name": "Brow and lash lamination",
+    "price": "25€"
+  },
+  {
+    "name": "Cosmetologist consultation",
+    "price": "Free"
+  }
+]
+,
+  "gallery": [
+    { "src": "./images/01.jpg", "alt": "01"},
+    { "src": "./images/02.jpg", "alt": "02"},
+    { "src": "./images/03.jpg", "alt": "03"},
+    { "src": "./images/04.jpg", "alt": "04"},
+    { "src": "./images/05.jpg", "alt": "05"},
+    { "src": "./images/06.jpg", "alt": "06"},
+    { "src": "./images/07.jpg", "alt": "07"},
+    { "src": "./images/08.jpg", "alt": "08"},
+    { "src": "./images/09.jpg", "alt": "09"},
+    { "src": "./images/10.jpg", "alt": "10"}
+  ],
+  "slider": [
+    {
+      "src": "./images/slide-1.jpg",
+      "alt": "description"
+    },
+    {
+      "src": "./images/slide-2.jpg",
+      "alt": "description"
+    },
+    {
+      "src": "./images/slide-3.jpg",
+      "alt": "description"
+    },
+    {
+      "src": "./images/slide-4.jpg",
+      "alt": "description"
+    }
+  ],
+ "slider2": [
+  { "src": "./images/product-1.jpg", "alt": "description" },
+  { "src": "./images/product-2.jpg", "alt": "description" },
+  { "src": "./images/product-3.jpg", "alt": "description" },
+  { "src": "./images/product-4.jpg", "alt": "description" },
+  { "src": "./images/product-5.jpg", "alt": "description" },
+  { "src": "./images/product-6.jpg", "alt": "description" },
+  { "src": "./images/product-7.jpg", "alt": "description" },
+  { "src": "./images/product-8.jpg", "alt": "description" },
+  { "src": "./images/product-9.jpg", "alt": "description" },
+  { "src": "./images/product-10.jpg", "alt": "description" },
+  { "src": "./images/product-11.jpg", "alt": "description" },
+  { "src": "./images/product-12.jpg", "alt": "description" }
+]
+
+}

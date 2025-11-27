@@ -1,0 +1,76 @@
+/*
+  Template © 2025 Inna Web Boutique
+  License: for personal use only. Resale prohibited.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Box sizing reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set base font and background */
+body {
+  font-family: 'Pacifico', cursive;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Remove image border and set max width */
+img, picture {
+  max-width: 100%;
+  display: block;
+  border: none;
+}
+
+/* Remove form element styles */
+input, button, textarea, select {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Remove default button styles */
+button {
+  cursor: pointer;
+}
+
+/* Remove quotes from blockquote and q */
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+}
+
+/* HTML5 display reset */
+article, aside, details, figcaption, figure,
+footer, header, main, nav, section {
+  display: block;
+}
+
+/*
+  Template © 2025 Inna Web Boutique 
+  Author: Inna Hiliarovska
+  License: Personal use only. Resale prohibited.
+*/
